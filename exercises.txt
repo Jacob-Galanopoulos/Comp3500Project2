@@ -1,0 +1,10 @@
+1.Explain how to avoid starvation in your implementation.
+We avoid starvation in the implementation by calling back to the 
+cats and mice queues to check for stragglers, then opening everything 
+up when we finish both queues.
+
+2.Comment on your experience of implementing the Cats-and-Mice program. 
+Can you derive any principles about the use of the semaphore 
+synchronization primitives?
+This project showed the implementation of the wait and signal and 
+showing how one thread can stop and sleep while a main body of code runs.
